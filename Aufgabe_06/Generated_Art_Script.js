@@ -60,4 +60,3 @@ var canvas;
         }
     }
 })(canvas || (canvas = {}));
-//# sourceMappingURL=Generated_Art_Script.js.map
