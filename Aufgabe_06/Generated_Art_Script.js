@@ -1,5 +1,5 @@
 "use strict";
-
+// Zusammenarbeit mit Tim Nees und Hilfe von Alessia
 var canvas;
 (function (canvas_1) {
     window.addEventListener("load", start);
@@ -15,7 +15,6 @@ var canvas;
         triangle();
         box();
     }
-    
     function circle() {
         for (let i = 0; i < 20; i++) {
             let red = Math.floor(Math.random() * 300);
@@ -29,7 +28,6 @@ var canvas;
             crc2.fill();
         }
     }
-    
     function triangle() {
         for (let i = 0; i < 10; i++) {
             let red = Math.floor(Math.random() * 300);
@@ -45,7 +43,6 @@ var canvas;
             crc3.fill();
         }
     }
-    
     function box() {
         for (let i = 0; i < 5; i++) {
             let red = Math.floor(Math.random() * 100);
@@ -61,6 +58,6 @@ var canvas;
             crc4.fillStyle = "rgb(" + red + ", " + green + "," + blue + ")";
             crc4.fill();
         }
-
     }
 })(canvas || (canvas = {}));
+//# sourceMappingURL=Generated_Art_Script.js.map
