@@ -43,8 +43,8 @@ var Canvas;
     }
     function drawMeadow(_x, _y) {
         var gradient = crc2.createLinearGradient(0, 0, 0, 800);
-        gradient.addColorStop(0.5, "#383D59");
-        gradient.addColorStop(0.6, "#99AABF");
+        gradient.addColorStop(0.5, "#19E3BB");
+        gradient.addColorStop(0.6, "#14A386");
         crc2.beginPath();
         crc2.fillStyle = gradient;
         crc2.moveTo(_x, _y + 400);
